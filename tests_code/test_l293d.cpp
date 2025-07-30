@@ -16,16 +16,16 @@ void loop() {
   digitalWrite(IN1, HIGH);
   digitalWrite(IN2, LOW);
   analogWrite(ENA, 200);
-  delay(2000);
+  delay(4000);
 
   // Backward
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, HIGH);
   analogWrite(ENA, 200);
-  delay(2000);
+  delay(4000);
 
   // Stop
   digitalWrite(IN1, LOW);
   digitalWrite(IN2, LOW);
-  delay(1000);
+  delay(4000);
 }

@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
 // test_ultrasonic.cpp
-#define TRIG_PIN 7
-#define ECHO_PIN 6
+#define TRIG_PIN 9
+#define ECHO_PIN 8
 
 void setup() {
   Serial.begin(9600);
